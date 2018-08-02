@@ -43,6 +43,8 @@ class ViewController: UIViewController {
                 
             } else {
                 resultLabel.text = "Please enter a Positive whole number!"
+                resultLabel.textColor = UIColor.red
+                
             }// close else enter whole
         }// close button pressed
     
